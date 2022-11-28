@@ -58,3 +58,11 @@ section:nth-of-type(4) .row .col{
     margin-right: 0.75rem;
     margin-bottom: var(--main-space);
 }
+
+/* FIFTH SECTION */
+section:nth-of-type(5) .row .col:first-of-type {
+    width: 60%;
+}
+section:nth-of-type(5) .row .col:last-of-type {
+    width: 40%;
+}
