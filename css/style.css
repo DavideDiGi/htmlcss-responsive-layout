@@ -26,19 +26,17 @@ header{
 section:nth-of-type(2){
     background-color: var(--secondary-color);
 }
-.row{
+section:nth-of-type(2) .row{
     max-width: 768px;
     margin: 0 auto;
     align-items: flex-end;
 }
-.row .col {
+section:nth-of-type(2) .row .col {
     width: 50%;
 }
 
 /* THIRD SECTION */
-section:nth-of-type(3) .upper.box{
-    text-align: center;
-}
+
 section:nth-of-type(3) .container > *{ 
     margin-bottom: var(--main-space) 0;
 }
@@ -48,3 +46,15 @@ section:nth-of-type(3) .card{
 }
 
 /* FOURTH SECTION */
+section:nth-of-type(4){
+    background-color: var(--secondary-color);
+}
+section:nth-of-type(4) .row{
+    margin: 0 -0.75rem;
+}
+section:nth-of-type(4) .row .col{
+    width: calc((100% / 3) -1.5rem);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-bottom: var(--main-space);
+}
