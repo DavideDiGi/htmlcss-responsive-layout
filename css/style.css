@@ -3,6 +3,7 @@ header{
     background-color: var(--primary-color);
 }
 /* MAIN */
+/* FIRST-SECTION */
 .cards{
     margin: 0 -0.75rem;
 }
@@ -20,3 +21,30 @@ header{
 .cards .card.flex.space > *{
     width: 50%;
 }
+
+/* SECOND SECTION */
+section:nth-of-type(2){
+    background-color: var(--secondary-color);
+}
+.row{
+    max-width: 768px;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+.row .col {
+    width: 50%;
+}
+
+/* THIRD SECTION */
+section:nth-of-type(3) .upper.box{
+    text-align: center;
+}
+section:nth-of-type(3) .container > *{ 
+    margin-bottom: var(--main-space) 0;
+}
+section:nth-of-type(3) .card{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
+/* FOURTH SECTION */
