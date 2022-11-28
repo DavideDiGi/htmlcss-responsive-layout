@@ -1,0 +1,22 @@
+/* HEADER */
+header{
+    background-color: var(--primary-color);
+}
+/* MAIN */
+.cards{
+    margin: 0 -0.75rem;
+}
+.cards .card{
+    width: calc((100% / 3) -1.5rem);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-bottom: var(--main-space);
+    background-color: var(--primary-color-light);
+
+}
+.cards .card.flex.space{
+    width: calc((100% / 3) * 2);
+}
+.cards .card.flex.space > *{
+    width: 50%;
+}
