@@ -76,3 +76,9 @@ section:last-of-type .container {
 }
 
 /* FOOTER */
+footer .container{
+    max-width: 350px;
+}
+footer{
+    background-color: var(--last-color);
+}
