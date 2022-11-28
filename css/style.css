@@ -66,3 +66,13 @@ section:nth-of-type(5) .row .col:first-of-type {
 section:nth-of-type(5) .row .col:last-of-type {
     width: 40%;
 }
+
+/* SIXTH SECTION */
+section:last-of-type{
+    background-color: var(--secondary-color);
+}
+section:last-of-type .container {
+    max-width: 400px;
+}
+
+/* FOOTER */
