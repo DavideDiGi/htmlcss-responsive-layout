@@ -73,6 +73,60 @@ section:nth-of-type(2) .row{
 section:nth-of-type(2) .row .col {
     width: 50%;
 }
+section:nth-of-type(2) .row .col:last-child {
+    width: 45%;
+}
+section:nth-of-type(2) .row .col:first-child{
+    padding-top: 40px;
+}
+section:nth-of-type(2) .row .col:first-child img{
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+section:nth-of-type(2) .row .col:first-child h2{
+    color: var(--light-color);
+    padding-top: 100px;
+}
+section:nth-of-type(2) .row .col:first-child p{
+    color: var(--light-color);
+    padding-top: var(--main-space);
+    line-height: 1.6rem;
+    
+}
+section:nth-of-type(2) .planning-right-side{ 
+    background-color: var(--light-color);
+    height: 62vh;
+    border-radius: 30px;
+    margin-left: 10%;
+}
+section:nth-of-type(2) .planning-right-side >*{ 
+    text-align: center;
+    line-height: 1.5em;
+    padding-top: 1rem;
+
+}
+section:nth-of-type(2) .planning-right-side img{ 
+    width: 55%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+section:nth-of-type(2) .planning-right-side p{ 
+    width: 90%;
+    margin: 0 auto; 
+}
+section:nth-of-type(2) .planning-right-side .purple-arrow{ 
+    padding-top: var(--inner-space);
+    background-color: var(--secondary-color);
+    width: var(--main-space); 
+    height: var(--main-space);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: var(--inner-space);
+    padding-top: 0;
+    line-height: var(--main-space); 
+    font-size: 0.7rem;     
+}
 
 /* THIRD SECTION */
 section:nth-of-type(3){
