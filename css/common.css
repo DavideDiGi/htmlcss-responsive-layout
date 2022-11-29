@@ -11,7 +11,11 @@
     --primary-color-light: #b5ddff;
     --secondary-color: #9792E4;
     --last-color: rgb(58, 58, 58);
+    --light-color: white;
+    --dark-color: #333;
+
     --main-space: 2rem;
+    --inner-space: 1rem;
 }
 
 /* REGOLE GENERALI */
@@ -24,7 +28,7 @@ body{
     padding: 10px;
 }
 .container{
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 var(--main-space);
 }
@@ -40,11 +44,48 @@ body{
 .wrap{
     flex-wrap: wrap;
 }
+.flex-grow{
+    flex-grow: 1;
+}
+.color-light{
+    color: var(--light-color);
+}
+.color-primary{
+    color: var(--primary-color);
+}
 .pad{
     padding: 2rem 0;
 }
 .text-align{
     text-align: center;
 }
+.padding-top1-5{
+    padding-top: 1.5rem;
+}
+.padding-top{
+    padding-top: 0.8rem;
+}
+.padding-bottom{
+    padding-bottom: 0.8rem;
+}
+img{
+    width: 100%;
+}
 
-
+.btn{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    text-decoration: none;
+}
+.primary-btn{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-weight: bold;
+    margin-top: var(--main-space)
+}
+.inner-space{
+    padding: var(--inner-space);
+}
