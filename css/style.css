@@ -131,14 +131,41 @@ section:nth-of-type(2) .planning-right-side .purple-arrow{
 /* THIRD SECTION */
 section:nth-of-type(3){
     scroll-margin-top: 100px;
+    padding-bottom: 5rem;
 }
 section:nth-of-type(3) .container > *{ 
     margin-bottom: var(--main-space) 0;
+}
+section:nth-of-type(3) .text-align{
+    padding: var(--inner-space);
+    line-height: 1.5rem;
 }
 section:nth-of-type(3) .card{
     background-color: var(--secondary-color);
     padding: 1rem;
 }
+section:nth-of-type(3) .container h1{
+    color: var(--secondary-color);
+}
+section:nth-of-type(3) .card.flex{
+    margin-top: var(--main-space);
+    border-radius: 50px;
+    padding: var(--main-space) var(--inner-space);
+}
+.round{
+}
+.round img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.quote{
+    width: 80%;
+    padding: var(--main-space);
+    color: var(--light-color);
+}
+
 
 /* FOURTH SECTION */
 section:nth-of-type(4){
