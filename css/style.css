@@ -251,7 +251,41 @@ section:last-of-type{
     background-color: var(--secondary-color);
 }
 section:last-of-type .container {
-    max-width: 400px;
+    max-width: 500px;
+}
+section:last-of-type .container .pad10{
+   color: var(--light-color);
+}
+section:last-of-type .container .pad10:first-child{
+   color: lightgrey;
+   font-size: 0.8em;
+}
+section:last-of-type .container .pad10 h1{
+   font-size: 4em;
+   color: goldenrod;
+}
+section:last-of-type .container .pad10 p{
+    font-size: 0.8em;
+    width: 80%;
+    margin: 0 auto;
+}
+section:last-of-type .container .pad10.btn {
+    margin-left: 50%;
+    transform: translate(-50%);
+    color: var(--secondary-color);
+    font-size: 0.8em;
+    padding: 15px 30px;
+    margin-top: var(--inner-space);
+    margin-bottom: var(--inner-space);
+}
+section:last-of-type .container .pad10:last-child{
+   font-size: 0.8em;
+}
+section:last-of-type .container .pad10:last-child i {
+   font-size: 0.1em;
+}
+section:last-of-type .container .pad10:last-child span {
+   text-decoration: underline;
 }
 
 /* FOOTER */
