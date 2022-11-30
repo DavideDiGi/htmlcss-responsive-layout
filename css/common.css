@@ -23,8 +23,7 @@ body{
     /* font-family: 'PT Sans', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
 }
-.box{
-    background-color: var(--primary-color-light);
+.pad10{
     padding: 10px;
 }
 .container{
