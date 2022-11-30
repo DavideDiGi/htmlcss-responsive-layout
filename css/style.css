@@ -294,6 +294,12 @@ footer .container{
 }
 footer{
     background-color: var(--last-color);
+    color: var(--light-color);
+    font-size: 0.8em;
+}
+footer span{
+    color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 /* MEDIA QUERY */
